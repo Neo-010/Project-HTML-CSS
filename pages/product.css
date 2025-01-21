@@ -1,0 +1,149 @@
+@font-face{
+    font-family: 'DDD';
+    src: url(../FONT/lato-bold-webfont.ttf);
+}
+
+@font-face{
+    font-family: 'DDD2';
+    src: url(../FONT/magra-bold-webfont.ttf)
+}
+@font-face{
+    font-family: 'DDD3';
+    src: url(../FONT/magra-bold-webfont.ttf);
+}
+@font-face{
+    font-family: 'DDD4';
+    src: url(../FONT/Intro.otf);
+}
+body{
+    margin: 0;
+}
+h1{
+    color: rgb(219, 58, 58);
+    margin-left: 150px;
+}
+
+div.list{
+    display: flex;
+    background-color: #d3d0d0;
+    height: 85px;
+}
+.menu{
+    display: flex;
+    text-align: center;
+    margin-left: 200px;
+    margin-top: 23px;
+}
+.line1 p.line_p1{
+    font-family: 'DDD3';
+}
+
+.menu li{
+    width: 200px;
+    list-style: none;
+    background-color: #d3d0d0;
+    position: relative;
+    padding-bottom: 20px;
+    font-size: 20px;
+    border-radius: 7px;
+}
+
+
+.menu a {
+    color: #5f5e5e;
+    text-decoration: none;
+    display: block;
+    padding: 0 10px;
+    height: 40px;
+    line-height: 40px;
+    transition: all .3s;
+}
+
+.menu a:hover{
+    color: rgb(238, 255, 0);
+}
+.li1 a{
+    color: rgb(255, 0, 0);
+}
+.menu ul{
+    position: absolute;
+    display: none;
+    padding: 0;
+}
+
+.menu li:hover ul{
+    display: block;
+
+}
+span{
+    font-family: 'DDD';
+    color: rgb(238, 255, 0);
+}
+.title{
+    font-family: 'DDD';
+    color: rgb(255, 0, 0);
+}
+.img-top img{
+    position: relative;
+    display: inline-block;
+    position: absolute;
+    top: 15px; 
+    left: 230px;
+    width: 22px;
+    height: 15px;
+}
+
+div.head{
+    background-color: rgb(230, 230, 9);
+    padding: 10px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+div.product {
+    margin-top: 50px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: row;
+}
+div.product .h3{
+    font-family: 'DDD4';
+    color: rgb(224, 3, 32);
+
+}
+div.product .p1{
+    text-align: center;
+}
+div.product p{
+    font-family: 'DDD2';
+    margin-right: 20px;
+    display: flex; 
+    flex-direction: row;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    margin: 15px;
+    list-style-type: none;
+}
+div.product img{
+    margin-right: 130px;
+}
+div.last_img {
+    padding: 50px;
+    background-color: rgb(255, 230, 0);
+    padding-left: 585px;
+    padding-bottom: 0px;
+}
+
+div.last_img .pin{
+    width: 31px;
+    height: 30px;
+}
+div.last_img img{
+    margin-right: 20px;
+}
+p{
+    font-family: 'DDD2';
+}
+

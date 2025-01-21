@@ -1,0 +1,175 @@
+@font-face{
+    font-family: 'DDD';
+    src: url(../FINAL_WORK_HTML/FONT/magra-bold-webfont.ttf);
+}
+
+@font-face{
+    font-family: 'DDD2';
+    src: url(../FINAL_WORK_HTML/FONT/Intro.otf);
+}
+@font-face{
+    font-family: 'DDD3';
+    src: url(../FINAL_WORK_HTML/FONT/Bicubik.OTF);
+}
+body{
+    margin: 0;
+}
+h1{
+    color: rgb(219, 58, 58);
+    margin-left: 150px;
+}
+
+div.list{
+    display: flex;
+    background-color: #d3d0d0;
+    height: 85px;
+}
+.menu{
+    display: flex;
+    text-align: center;
+    margin-left: 200px;
+    margin-top: 23px;
+}
+.line1 p.line_p1{
+    font-family: 'DDD3';
+}
+
+.menu li{
+    width: 200px;
+    list-style: none;
+    background-color: #d3d0d0;
+    position: relative;
+    padding-bottom: 20px;
+    font-size: 20px;
+    border-radius: 7px;
+}
+
+
+.menu a {
+    color: #5f5e5e;
+    text-decoration: none;
+    display: block;
+    padding: 0 10px;
+    height: 40px;
+    line-height: 40px;
+    transition: all .3s;
+}
+
+.menu a:hover{
+    color: rgb(238, 255, 0);
+}
+.li1 a{
+    color: rgb(255, 0, 0);
+}
+.menu ul{
+    position: absolute;
+    display: none;
+    padding: 0;
+}
+
+.menu li:hover ul{
+    display: block;
+
+}
+span{
+    font-family: 'DDD';
+    color: rgb(238, 255, 0);
+}
+.title{
+    font-family: 'DDD';
+    color: rgb(255, 0, 0);
+}
+.img-top img{
+    position: relative;
+    display: inline-block;
+    position: absolute;
+    top: 15px; 
+    left: 220px;
+    width: 22px;
+    height: 15px;
+}
+
+.big_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+}
+div.big_img img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.img1{
+    z-index: -1;
+}
+div.line1{
+    background-color: #d3d0d0;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    padding-left: 250px;
+    margin-bottom: 0px;
+
+}
+
+.big_img{
+    position: relative;
+}
+.img2{
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 570px;
+}
+div.line1 h2{
+    color: rgb(231, 33, 33);
+    font-family: 'DDD2';
+}
+div.line1 h2:hover{
+    color: rgb(138, 5, 5);
+
+}
+
+div.line1 .img3{
+    flex: 1;
+    text-align: right;
+    margin-left: 20px;
+}
+div.div2{
+    float: left;
+}
+
+div.img4{
+    background-color: rgb(167, 223, 15);
+    padding: 50px;
+    padding-left: 385px;
+    display: flex;
+}
+
+div.img4 ul{
+    display: flex;
+}
+div.img4 li{
+    padding-right: 100px;
+    text-align: center;
+    color: rgb(253, 254, 255);
+    list-style-type: none;
+}
+div.last_img {
+    padding: 50px;
+    background-color: rgb(255, 230, 0);
+    padding-left: 603px;
+}
+
+div.last_img .pin{
+    width: 31px;
+    height: 30px;
+}
+div.last_img img{
+    margin-right: 20px;
+}
+div.last_img p{
+    text-align: center;
+    color: rgb(253, 254, 255);
+    margin-right: 650px;
+    color: black;
+}
+
